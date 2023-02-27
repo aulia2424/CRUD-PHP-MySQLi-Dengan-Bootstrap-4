@@ -17,7 +17,8 @@
               TAMBAH SISWA
             </div>
             <div class="card-body">
-              <form action="simpan-siswa.php" method="POST">
+                <!-- untuk mengarahkan ke file simpan-siswa.php -->
+              <form action="simpan-siswa.php" method="POST"> 
                 
                 <div class="form-group">
                   <label>NISN</label>

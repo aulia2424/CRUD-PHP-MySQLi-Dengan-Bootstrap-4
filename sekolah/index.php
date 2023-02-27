@@ -19,6 +19,7 @@
             </div>
             <div class="card-body">
               <a href="tambah-siswa.php" class="btn btn-md btn-success" style="margin-bottom: 10px">TAMBAH DATA</a>
+              <!-- id myTable akan di panggil di jquery -->
               <table class="table table-bordered" id="myTable">
                 <thead>
                   <tr>
@@ -31,6 +32,7 @@
                 </thead>
                 <tbody>
                   <?php 
+                    //   menyertakan koneksi.php 
                       include('koneksi.php');
                       $no = 1;
                       $query = mysqli_query($connection,"SELECT * FROM tbl_siswa");
